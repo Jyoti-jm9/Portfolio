@@ -1,0 +1,22 @@
+/* src/skillStyles.css */
+
+.main {
+    @apply flex items-center justify-center flex-col min-h-screen;
+}
+
+.container {
+    @apply flex flex-wrap justify-center;
+}
+
+.items {
+    @apply w-1/2  flex justify-center p-2;
+}
+
+.item {
+    @apply text-white text-xl font-bold w-80 h-48 rounded-md border-2 border-yellow-500 shadow-2xl shadow-orange-400 flex flex-col items-center bg-black p-4 rounded;
+}
+
+.skill-image {
+    @apply w-32 h-32 object-cover; /* Ensures images are same size */
+}
+

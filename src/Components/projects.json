@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "Weather Forecast Web App",
+      "description": "Developed using React and Tailwind CSS, this application provides a 5-day weather forecast.",
+      "imageSrc": "https://th.bing.com/th/id/OIP.WJgb26eZPs2r-J3oJgTuywHaEK?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 2,
+      "title": "Football Game Simulator",
+      "description": "Created with HTML, JavaScript, and CSS, this game allows users to select their team and the opponent team, and enjoy a football match simulation.",
+      "imageSrc": "https://www.thestatesman.com/wp-content/uploads/2020/04/1c5b1aa3386eeb2c21d633f04e2ddfbe.jpg"
+    }
+  ]
+  

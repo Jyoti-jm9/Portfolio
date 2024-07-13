@@ -1,0 +1,25 @@
+/* src/projectStyles.css */
+
+.projects-container {
+    @apply flex flex-wrap justify-center items-center p-8;
+  }
+  
+  .project {
+    @apply bg-slate-900/80 shadow-md rounded-lg m-4 p-6 h-80 w-80 hover:h-96 w-96 shadow-2xl shadow-green-600;  
+    @apply flex flex-col items-center;
+   
+    @apply hover:text-xl;
+  }
+  
+  .project-image {
+    @apply w-20 h-20 object-cover mb-4;
+  }
+  
+  .project-title {
+    @apply text-xl font-bold mb-2;
+  }
+  
+  .project-description {
+    @apply text-gray-200 text-center;
+  }
+  

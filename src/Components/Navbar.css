@@ -1,0 +1,3 @@
+.nav_items {
+    @apply p-4 m-1 text-xl font-bold hover:border-green-500 border-2;
+}
