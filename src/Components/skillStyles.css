@@ -1,11 +1,12 @@
 /* src/skillStyles.css */
 
 .main {
-    @apply flex items-center justify-center flex-col min-h-screen;
+    @apply  flex  justify-center items-center flex-col min-h-screen;
+    width : 100%;
 }
 
 .container {
-    @apply flex flex-wrap justify-center;
+    @apply w-full flex flex-wrap justify-center;
 }
 
 .items {
@@ -19,4 +20,23 @@
 .skill-image {
     @apply w-32 h-32 object-cover; /* Ensures images are same size */
 }
+
+/* @media (max-width: 600px) {
+    .item {
+        @apply w-20 h-24;
+    }
+    .skill-image {
+        @apply w-16 h-20;
+    }
+    .small-screen-margin-right {
+      margin-right: 1px;
+      margin-left: 1px; 
+      
+    }
+  
+    .small-screen-margin-left {
+      margin-left: 5px;
+      margin-right: 0; 
+    }
+  } */
 

@@ -1,3 +1,6 @@
 .nav_items {
-    @apply p-4 m-1 text-xl font-bold hover:border-green-500 border-2;
+    @apply  text-xs font-bold hover:border-green-500 ;
+    @apply hover:border-b-2;
+   
+    @apply sm:text-base md:text-lg;
 }
